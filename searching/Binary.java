@@ -23,8 +23,6 @@ public class Binary {
         int target = sc.nextInt();
 
         int[] arr = {1, 2, 4, 5, 7, 8, 9, 3, 6, 10};
-        
-        // Sort the array before searching
         Arrays.sort(arr);
 
         boolean re = Binary_s(arr, target);

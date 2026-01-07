@@ -6,7 +6,7 @@ public class Powerofn {
         if(n==1){
         return 1;
     }
-        Power(){
+        Power();{
             System.out.println();
         }
     }

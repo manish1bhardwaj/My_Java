@@ -4,7 +4,7 @@ public class SumOfNaturalNo{
         int i=1;
         int sum=0;
         int num=8;
-        while(i<=8){
+        while(i<=num){
             sum+=i;
             System.out.println(sum);
             i++;

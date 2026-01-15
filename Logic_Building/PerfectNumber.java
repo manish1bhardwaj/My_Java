@@ -4,7 +4,7 @@ import java.util.*;
 
 public class PerfectNumber {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);{
         int num = sc.nextInt();
         int i = 1;
         int sum = 0;
@@ -19,6 +19,8 @@ public class PerfectNumber {
         }
         else{
             System.out.println("Not Perfect");
+        }
+            sc.close();
         }
     }
 }

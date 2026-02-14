@@ -2,12 +2,12 @@ import java.util.*;
 public class inArr {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int [] arr = new int[5];
+        // int [] arr = new int[5];
         
         //Taking input in array using for loop
-        for(int i =0;i<arr.length;i++){
-            arr[i] = sc.nextInt();
-        }
+        // for(int i =0;i<arr.length;i++){
+        //     arr[i] = sc.nextInt();
+        // }
         
         // 3 ways to print array
 
@@ -25,6 +25,13 @@ public class inArr {
         // }
 
         // 3. best way 
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(Arrays.toString(arr));
+
+        // array of objects
+        String[] str = new String[4];
+        for(int i =0;i<str.length;i++){
+            str[i]=sc.next();
+        }
+        System.out.println(Arrays.toString(str));
     }
 }

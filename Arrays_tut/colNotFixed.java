@@ -14,5 +14,4 @@ public class colNotFixed {
             System.out.println("");
         }
     }
-    
 }

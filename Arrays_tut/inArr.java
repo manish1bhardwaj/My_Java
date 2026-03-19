@@ -14,12 +14,12 @@ public class inArr {
         // 1. print all element of array using for loop
 
         // for (int i = 0; i < arr.length; i++) {
-        //     System.out.print(arr[i]);
+        //     System.out.print(arr[i]+" ");
             
         // }
 
-        // 2.Enchance loop/for each loop.
-        //  for (int num : arr) {
+        // 2.Enchance loop/for each loop. ,for every element in Array print the element.
+        //  for (int num : arr) {        //num represent element oof the array.
         //     System.out.print(num +" ");
             
         // }

@@ -39,13 +39,9 @@ public class MultiArr {
         //     System.out.println(Arrays.toString(arr[row]));
         // }
 
-        //3 way to print output
+        //3 way to print output 
         for(int[] a:arr){
             System.out.println(Arrays.toString(a));
-
         }
-
-        
-       
     }
 }

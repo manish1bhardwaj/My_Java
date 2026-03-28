@@ -5,7 +5,7 @@ class basicsmap{
         HashMap<String,Integer> map = new HashMap<>();
         map.put("Manish",20);map.put("Abhishek",21);
         map.put("Ashish",19);map.put("Anubhav",22);
-        for(String key:map.keySet()){HAsh
+        for(String key:map.keySet()){
             System.out.println(key+" "+map.get(key));
         }
         // System.out.println(map+" "+map.size());

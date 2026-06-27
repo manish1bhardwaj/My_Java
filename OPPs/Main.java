@@ -17,6 +17,12 @@ class Student{
    public static void f2(){
       System.out.println("Hi..");
    }
+   public int getage(){
+      return this.age;
+   }
+   public void setage(int age){
+      this.age = age;
+   }
 }
 
  public class Main{
@@ -31,8 +37,12 @@ class Student{
 
       s1.f1();
       s2.f1();
-      System.out.println(s1.name+" "+s1.age);
-      System.out.println(s2.name+" "+s2.age);
+      s1.setage(30);
+      s2.setage(49);
+
+      
+      System.out.println(s1.name+" "+s1.getage());
+      System.out.println(s2.name+" "+s2.getage());
     
    }
         
